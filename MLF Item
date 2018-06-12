@@ -1,1 +1,644 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+M27 ;排屑打开
+IF (R47==1) AND (R41==1)  
+L411 ;4号工位（横向）面铣刀程序
+ENDIF
+IF (R87==1) AND (R81==1)  
+L811 ;8号工位（横向）面铣刀程序
+ENDIF
+IF (R77==1) AND (R71==1)  
+L711 ;7号工位（横向）面铣刀程序
+ENDIF
+IF (R37==1) AND (R31==1)  
+L311 ;3号工位（横向）面铣刀程序
+ENDIF
+IF (R27==1) AND (R21==1)  
+L211 ;2号工位（横向）面铣刀程序
+ENDIF
+IF (R67==1) AND (R61==1)  
+L611 ;6号工位（横向）面铣刀程序
+ENDIF
+IF (R57==1) AND (R51==1)  
+L511 ;5号工位（横向）面铣刀程序
+ENDIF
+IF (R17==1) AND (R11==1)  
+L111 ;1号工位（横向）面铣刀程序
+ENDIF
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IF (R47==1) AND (R41==1)  
+L431 ;4号工位（横向）粗铣刀程序
+ENDIF
+IF (R87==1) AND (R81==1)  
+L831 ;8号工位（横向）粗铣刀程序
+ENDIF
+IF (R77==1) AND (R71==1)  
+L731 ;7号工位（横向）粗铣刀程序
+ENDIF
+IF (R37==1) AND (R31==1)  
+L331 ;3号工位（横向）粗铣刀程序
+ENDIF
+IF (R27==1) AND (R21==1)  
+L231 ;2号工位（横向）粗铣刀程序
+ENDIF
+IF (R67==1) AND (R61==1)  
+L631 ;6号工位（横向）粗铣刀程序
+ENDIF
+IF (R57==1) AND (R51==1)  
+L531 ;5号工位（横向）粗铣刀程序
+ENDIF
+IF (R17==1) AND (R11==1)  
+L131 ;1号工位（横向）粗铣刀程序
+ENDIF
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IF (R47==1) AND (R41==1)  
+L441 ;4号工位（横向）精铣刀程序
+ENDIF
+IF (R87==1) AND (R81==1)  
+L841 ;8号工位（横向）精铣刀程序
+ENDIF
+IF (R77==1) AND (R71==1)  
+L741 ;7号工位（横向）精铣刀程序
+ENDIF
+IF (R37==1) AND (R31==1)  
+L341 ;3号工位（横向）精铣刀程序
+ENDIF
+IF (R27==1) AND (R21==1)  
+L241 ;2号工位（横向）精铣刀程序
+ENDIF
+IF (R67==1) AND (R61==1)  
+L641 ;6号工位（横向）精铣刀程序
+ENDIF
+IF (R57==1) AND (R51==1)  
+L541 ;5号工位（横向）精铣刀程序
+ENDIF
+IF (R17==1) AND (R11==1)  
+L141 ;1号工位（横向）精铣刀程序
+ENDIF
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IF (R47==1) AND (R41==1)  
+L481 ;4号工位（横向）上倒角刀程序
+ENDIF
+IF (R87==1) AND (R81==1)  
+L881 ;8号工位（横向）上倒角刀程序
+ENDIF
+IF (R77==1) AND (R71==1)  
+L781 ;7号工位（横向）上倒角刀程序
+ENDIF
+IF (R37==1) AND (R31==1)  
+L381 ;3号工位（横向）上倒角刀程序
+ENDIF
+IF (R27==1) AND (R21==1)  
+L281 ;2号工位（横向）上倒角刀程序
+ENDIF
+IF (R67==1) AND (R61==1)  
+L681 ;6号工位（横向）上倒角刀程序
+ENDIF
+IF (R57==1) AND (R51==1)  
+L581 ;5号工位（横向）上倒角刀程序
+ENDIF
+IF (R17==1) AND (R11==1)  
+L181 ;1号工位（横向）上倒角刀程序
+ENDIF
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IF (R47==1) AND (R41==1)  
+L421 ;4号工位（横向）锯片刀程序
+ENDIF
+IF (R87==1) AND (R81==1)  
+L821 ;8号工位（横向）锯片刀程序
+ENDIF
+IF (R77==1) AND (R71==1)  
+L721 ;7号工位（横向）锯片刀程序
+ENDIF
+IF (R37==1) AND (R31==1)  
+L321 ;3号工位（横向）锯片刀程序
+ENDIF
+IF (R27==1) AND (R21==1)  
+L221 ;2号工位（横向）锯片刀程序
+ENDIF
+IF (R67==1) AND (R61==1)  
+L621 ;6号工位（横向）锯片刀程序
+ENDIF
+IF (R57==1) AND (R51==1)  
+L521 ;5号工位（横向）锯片刀程序
+ENDIF
+IF (R17==1) AND (R11==1)  
+L121 ;1号工位（横向）锯片刀程序
+ENDIF
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IF (R47==1) AND (R41==1)  
+L471 ;4号工位（横向）倒角刀程序
+ENDIF
+IF (R87==1) AND (R81==1)  
+L871 ;8号工位（横向）倒角刀程序
+ENDIF
+IF (R77==1) AND (R71==1)  
+L771 ;7号工位（横向）倒角刀程序
+ENDIF
+IF (R37==1) AND (R31==1)  
+L371 ;3号工位（横向）倒角刀程序
+ENDIF
+IF (R27==1) AND (R21==1)  
+L271 ;2号工位（横向）倒角刀程序
+ENDIF
+IF (R67==1) AND (R61==1)  
+L671 ;6号工位（横向）倒角刀程序
+ENDIF
+IF (R57==1) AND (R51==1)  
+L571 ;5号工位（横向）倒角刀程序
+ENDIF
+IF (R17==1) AND (R11==1)  
+L171 ;1号工位（横向）倒角刀程序
+ENDIF
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IF (R47==1) AND (R41==1)  
+L461 ;4号工位（横向）打标机程序
+ENDIF
+IF (R87==1) AND (R81==1)  
+L861 ;8号工位（横向）打标机程序
+ENDIF
+IF (R77==1) AND (R71==1)  
+L761 ;7号工位（横向）打标机程序
+ENDIF
+IF (R37==1) AND (R31==1)  
+L361 ;3号工位（横向）打标机程序
+ENDIF
+IF (R27==1) AND (R21==1)  
+L261 ;2号工位（横向）打标机程序
+ENDIF
+IF (R67==1) AND (R61==1)  
+L661 ;6号工位（横向）打标机程序
+ENDIF
+IF (R57==1) AND (R51==1)  
+L561 ;5号工位（横向）打标机程序
+ENDIF
+IF (R17==1) AND (R11==1)  
+L161 ;1号工位（横向）打标机程序
+ENDIF
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IF (R47==1) AND (R41==1)  
+L451 ;4号工位（横向）割断刀程序
+ENDIF
+IF (R87==1) AND (R81==1)  
+L851 ;8号工位（横向）割断刀程序
+ENDIF
+IF (R77==1) AND (R71==1)  
+L751 ;7号工位（横向）割断刀程序
+ENDIF
+IF (R37==1) AND (R31==1)  
+L351 ;3号工位（横向）割断刀程序
+ENDIF
+IF (R27==1) AND (R21==1)  
+L251 ;2号工位（横向）割断刀程序
+ENDIF
+IF (R67==1) AND (R61==1)  
+L651 ;6号工位（横向）割断刀程序
+ENDIF
+IF (R57==1) AND (R51==1)  
+L551 ;5号工位（横向）割断刀程序
+ENDIF
+IF (R17==1) AND (R11==1)  
+L151 ;1号工位（横向）割断刀程序
+ENDIF
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+R211=0
+R212=0
+R213=0
+R214=0
+R215=0
+R216=0
+R217=0
+R218=0
+R221=0
+R222=0
+R223=0
+R224=0
+R225=0
+R226=0
+R227=0
+R228=0
+R231=0
+R232=0
+R233=0
+R234=0
+R235=0
+R236=0
+R237=0
+R238=0
+R241=0
+R242=0
+R243=0
+R244=0
+R245=0
+R246=0
+R247=0
+R248=0
+R251=0
+R252=0
+R253=0
+R254=0
+R255=0
+R256=0
+R257=0
+R258=0
+R261=0
+R262=0
+R263=0
+R264=0
+R265=0
+R266=0
+R267=0
+R268=0
+R271=0
+R272=0
+R273=0
+R274=0
+R275=0
+R276=0
+R277=0
+R278=0
+
+;;;R211第二位是刀位第三位是工位
+AA:
+IF (R47==1) AND (R41==2)
+STOPRE
+R214=R214+1 
+STOPRE
+L412 ;4号工位（竖向）面铣刀程序
+ENDIF
+IF (R87==1) AND (R81==2) 
+STOPRE
+R218=R218+1   
+STOPRE
+L812 ;8号工位（竖向）面铣刀程序
+ENDIF
+IF (R77==1) AND (R71==2) 
+STOPRE
+R217=R217+1   
+STOPRE
+L712 ;7号工位（竖向）面铣刀程序
+ENDIF
+IF (R37==1) AND (R31==2)
+STOPRE
+R213=R213+1
+STOPRE
+L312 ;3号工位（竖向）面铣刀程序
+ENDIF
+IF (R27==1) AND (R21==2) 
+STOPRE
+R212=R212+1   
+STOPRE
+L212 ;2号工位（竖向）面铣刀程序
+ENDIF
+IF (R67==1) AND (R61==2) 
+STOPRE
+R216=R216+1   
+STOPRE
+L612 ;6号工位（竖向）面铣刀程序
+ENDIF
+IF (R57==1) AND (R51==2) 
+STOPRE
+R215=R215+1   
+STOPRE
+L512 ;5号工位（竖向）面铣刀程序
+ENDIF
+IF (R17==1) AND (R11==2) 
+STOPRE
+R211=R211+1   
+STOPRE
+L112 ;1号工位（竖向）面铣刀程序
+ENDIF
+
+
+CC:
+IF (R47==1) AND (R41==2)
+STOPRE
+R244=R244+1
+STOPRE
+L442 ;4号工位（竖向）精铣刀程序
+ENDIF
+IF (R87==1) AND (R81==2) 
+STOPRE
+R248=R248+1   
+STOPRE
+L842 ;8号工位（竖向）精铣刀程序
+ENDIF
+IF (R77==1) AND (R71==2) 
+STOPRE
+R247=R247+1   
+STOPRE
+L742 ;7号工位（竖向）精铣刀程序
+ENDIF
+IF (R37==1) AND (R31==2)
+STOPRE
+R243=R243+1
+STOPRE
+L342 ;3号工位（竖向）精铣刀程序
+ENDIF
+IF (R27==1) AND (R21==2) 
+STOPRE
+R242=R242+1   
+STOPRE
+L242 ;2号工位（竖向）精铣刀程序
+ENDIF
+IF (R67==1) AND (R61==2) 
+STOPRE
+R246=R246+1   
+STOPRE
+L642 ;6号工位（竖向）精铣刀程序
+ENDIF
+IF (R57==1) AND (R51==2) 
+STOPRE
+R245=R245+1   
+STOPRE
+L542 ;5号工位（竖向）精铣刀程序
+ENDIF
+IF (R17==1) AND (R11==2) 
+STOPRE
+R241=R241+1   
+STOPRE
+L142 ;1号工位（竖向）精铣刀程序
+ENDIF
+
+
+GG:
+IF (R47==1) AND (R41==2)
+STOPRE
+R274=R274+1
+STOPRE
+L482 ;4号工位（竖向）上倒角刀程序
+ENDIF
+IF (R87==1) AND (R81==2) 
+STOPRE
+R278=R278+1   
+STOPRE
+L882 ;8号工位（竖向）上倒角刀程序
+ENDIF
+IF (R77==1) AND (R71==2) 
+STOPRE
+R277=R277+1   
+STOPRE
+L782 ;7号工位（竖向）上倒角刀程序
+ENDIF
+IF (R37==1) AND (R31==2)
+STOPRE
+R273=R273+1
+STOPRE
+L382 ;3号工位（竖向）上倒角刀程序
+ENDIF
+IF (R27==1) AND (R21==2) 
+STOPRE
+R272=R272+1   
+STOPRE
+L282 ;2号工位（竖向）上倒角刀程序
+ENDIF
+IF (R67==1) AND (R61==2) 
+STOPRE
+R276=R276+1   
+STOPRE
+L682 ;6号工位（竖向）上倒角刀程序
+ENDIF
+IF (R57==1) AND (R51==2) 
+STOPRE
+R275=R275+1   
+STOPRE
+L582 ;5号工位（竖向）上倒角刀程序
+ENDIF
+IF (R17==1) AND (R11==2) 
+STOPRE
+R271=R271+1   
+STOPRE
+L182 ;1号工位（竖向）上倒角刀程序
+ENDIF
+
+
+BB:
+IF (R47==1) AND (R41==2)
+STOPRE
+R224=R224+1
+STOPRE
+L422 ;4号工位（竖向）锯片刀程序
+ENDIF
+IF (R87==1) AND (R81==2) 
+STOPRE
+R228=R228+1   
+STOPRE
+L822 ;8号工位（竖向）锯片刀程序
+ENDIF
+IF (R77==1) AND (R71==2) 
+STOPRE
+R227=R227+1   
+STOPRE
+L722 ;7号工位（竖向）锯片刀程序
+ENDIF
+IF (R37==1) AND (R31==2)
+STOPRE
+R223=R223+1
+STOPRE
+L322 ;3号工位（竖向）锯片刀程序
+ENDIF
+IF (R27==1) AND (R21==2) 
+STOPRE
+R222=R222+1   
+STOPRE
+L222 ;2号工位（竖向）锯片刀程序
+ENDIF
+IF (R67==1) AND (R61==2) 
+STOPRE
+R226=R226+1   
+STOPRE
+L622 ;6号工位（竖向）锯片刀程序
+ENDIF
+IF (R57==1) AND (R51==2) 
+STOPRE
+R225=R225+1   
+STOPRE
+L522 ;5号工位（竖向）锯片刀程序
+ENDIF
+IF (R17==1) AND (R11==2) 
+STOPRE
+R221=R221+1   
+STOPRE
+L122 ;1号工位（竖向）锯片刀程序
+ENDIF
+
+
+
+
+FF:
+IF (R47==1) AND (R41==2)
+STOPRE
+R264=R264+1
+STOPRE
+L472 ;4号工位（竖向）倒角刀程序
+ENDIF
+IF (R87==1) AND (R81==2) 
+STOPRE
+R268=R268+1   
+STOPRE
+L872 ;8号工位（竖向）倒角刀程序
+ENDIF
+IF (R77==1) AND (R71==2) 
+STOPRE
+R267=R267+1   
+STOPRE
+L772 ;7号工位（竖向）倒角刀程序
+ENDIF
+IF (R37==1) AND (R31==2)
+STOPRE
+R263=R263+1
+STOPRE
+L372 ;3号工位（竖向）倒角刀程序
+ENDIF
+IF (R27==1) AND (R21==2) 
+STOPRE
+R262=R262+1   
+STOPRE
+L272 ;2号工位（竖向）倒角刀程序
+ENDIF
+IF (R67==1) AND (R61==2) 
+STOPRE
+R266=R266+1   
+STOPRE
+L672 ;6号工位（竖向）倒角刀程序
+ENDIF
+IF (R57==1) AND (R51==2) 
+STOPRE
+R265=R265+1   
+STOPRE
+L572 ;5号工位（竖向）倒角刀程序
+ENDIF
+IF (R17==1) AND (R11==2) 
+STOPRE
+R261=R261+1   
+STOPRE
+L172 ;1号工位（竖向）倒角刀程序
+ENDIF
+
+
+
+DD:
+IF (R47==1) AND (R41==2)
+STOPRE
+R234=R234+1
+STOPRE
+L462 ;4号工位（竖向）打标机程序
+ENDIF
+IF (R87==1) AND (R81==2) 
+STOPRE
+R238=R238+1   
+STOPRE
+L862 ;8号工位（竖向）打标机程序
+ENDIF
+IF (R77==1) AND (R71==2) 
+STOPRE
+R237=R237+1   
+STOPRE
+L762 ;7号工位（竖向）打标机程序
+ENDIF
+IF (R37==1) AND (R31==2)
+STOPRE
+R233=R233+1
+STOPRE
+L362 ;3号工位（竖向）打标机程序
+ENDIF
+IF (R27==1) AND (R21==2) 
+STOPRE
+R232=R232+1   
+STOPRE
+L262 ;2号工位（竖向）打标机程序
+ENDIF
+IF (R67==1) AND (R61==2) 
+STOPRE
+R236=R236+1   
+STOPRE
+L662 ;6号工位（竖向）打标机程序
+ENDIF
+IF (R57==1) AND (R51==2) 
+STOPRE
+R235=R235+1   
+STOPRE
+L562 ;5号工位（竖向）打标机程序
+ENDIF
+IF (R17==1) AND (R11==2) 
+STOPRE
+R231=R231+1   
+STOPRE
+L162 ;1号工位（竖向）打标机程序
+ENDIF
+
+EE:
+IF (R47==1) AND (R41==2)
+STOPRE
+R254=R254+1
+STOPRE
+L452 ;4号工位（竖向）割断刀程序
+ENDIF
+IF (R87==1) AND (R81==2) 
+STOPRE
+R258=R258+1   
+STOPRE
+L852 ;8号工位（竖向）割断刀程序
+ENDIF
+IF (R77==1) AND (R71==2) 
+STOPRE
+R257=R257+1   
+STOPRE
+L752 ;7号工位（竖向）割断刀程序
+ENDIF
+IF (R37==1) AND (R31==2)
+STOPRE
+R253=R253+1
+STOPRE
+L352 ;3号工位（竖向）割断刀程序
+ENDIF
+IF (R27==1) AND (R21==2) 
+STOPRE
+R252=R252+1   
+STOPRE
+L252 ;2号工位（竖向）割断刀程序
+ENDIF
+IF (R67==1) AND (R61==2) 
+STOPRE
+R256=R256+1   
+STOPRE
+L652 ;6号工位（竖向）割断刀程序
+ENDIF
+IF (R57==1) AND (R51==2) 
+STOPRE
+R255=R255+1   
+STOPRE
+L552 ;5号工位（竖向）割断刀程序
+ENDIF
+IF (R17==1) AND (R11==2) 
+STOPRE
+R251=R251+1   
+STOPRE
+L152 ;1号工位（竖向）割断刀程序
+ENDIF
+
+IF (R211==0) AND (R212==0) AND (R213==0) AND (R214==0) AND (R215==0) AND (R216==0) AND (R217==0) AND (R218==0) GOTOF END
+IF (R211<3) AND (R212<3) AND (R213<3) AND (R214<3) AND (R215<3) AND (R216<3) AND (R217<3) AND (R218<3) GOTOB AA
+IF (R231<3) AND (R232<3) AND (R233<3) AND (R234<3) AND (R235<3) AND (R236<3) AND (R237<3) AND (R238<3) GOTOB CC
+IF (R271<3) AND (R272<3) AND (R273<3) AND (R274<3) AND (R275<3) AND (R276<3) AND (R277<3) AND (R278<3) GOTOB GG
+IF (R221<3) AND (R222<3) AND (R223<3) AND (R224<3) AND (R225<3) AND (R226<3) AND (R227<3) AND (R228<3) GOTOB BB
+IF (R261<3) AND (R262<3) AND (R263<3) AND (R264<3) AND (R265<3) AND (R266<3) AND (R267<3) AND (R268<3) GOTOB FF
+IF (R241<3) AND (R242<3) AND (R243<3) AND (R244<3) AND (R245<3) AND (R246<3) AND (R247<3) AND (R248<3) GOTOB DD
+IF (R251<3) AND (R252<3) AND (R253<3) AND (R254<3) AND (R255<3) AND (R256<3) AND (R257<3) AND (R258<3) GOTOB EE
+END:
+G75Z0
+G511G90G0X600Y0
+M28 ;排屑关闭
+M30
 
